@@ -3,13 +3,10 @@
 ## 🧩 The Problem sidecar Solves
 In distributed systems, certain capabilities—like logging, configuration, proxying, or security—are needed across many services. Embedding these into every service leads to:
 
-Code duplication
-
-Tight coupling between business logic and infrastructure concerns
-
-Harder maintenance and testing
-
-Difficulty in applying changes across the system
+- Code duplication
+- Tight coupling between business logic and infrastructure concerns
+- Harder maintenance and testing
+- Difficulty in applying changes across the system
 
 👉 If you're copying the same logic into multiple services or struggling to isolate operational concerns, Sidecar might be the solution.
 
